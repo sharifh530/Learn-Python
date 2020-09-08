@@ -66,3 +66,19 @@ print(list(range(101)))
 sentence = " "
 
 print(sentence.join(["is", "everything", "fine?"]))
+
+# List unpacking
+
+a, b, c = [1, 2, 3]
+
+print(a)
+print(b)
+print(c)
+
+d, e, f, *g, h = [4, 5, 6, 7, 8, 9, 10]
+
+print(d)
+print(e)
+print(f)
+print(g)
+print(h)
