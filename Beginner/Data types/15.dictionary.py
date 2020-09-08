@@ -29,3 +29,13 @@ my_list = [
 
 print(my_list[1]["item"][0])
 print(my_list[1]["available"])
+
+# pop
+
+print(my_list[0].pop("quantity"))
+print(my_list)
+
+# update
+
+print(my_list[1].update({"available": False}))
+print(my_list)
