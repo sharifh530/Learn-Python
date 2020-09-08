@@ -56,3 +56,13 @@ print(basket)
 basket.sort()
 print(basket)
 print(sorted(basket))
+
+# Range
+
+print(list(range(101)))
+
+# Join
+
+sentence = " "
+
+print(sentence.join(["is", "everything", "fine?"]))
